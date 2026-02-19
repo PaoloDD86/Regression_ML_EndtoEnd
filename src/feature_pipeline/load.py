@@ -12,7 +12,7 @@ DATA_DIR = Path("data/raw")
 
 
 def load_and_split_data(
-    raw_path: str = "data/raw/untouched_raw_original.csv",
+    raw_path: str = r'C:\Users\User\Desktop\Project Work\Corso Udemy2\ML_Project\ML_Project\data\HouseTS.csv',
     output_dir: Path | str = DATA_DIR,
 ):
     """Load raw dataset, split into train/eval/holdout by date, and save to output_dir."""

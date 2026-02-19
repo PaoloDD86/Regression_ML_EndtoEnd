@@ -1,5 +1,5 @@
-"""
-⚡ Preprocessing Script for Housing Regression MLE
+'''
+Preprocessing Script for Housing Regression MLE
 
 - Reads train/eval/holdout CSVs from data/raw/.
 - Cleans and normalizes city names.
@@ -15,7 +15,7 @@ Preprocessing: city normalization + (optional) lat/lng merge, duplicate drop, ou
 - Production defaults read from data/raw/ and write to data/processed/
 - Tests can override `raw_dir`, `processed_dir`, and pass `metros_path=None`
   to skip merge safely without touching disk assets.
-"""
+'''
 
 import re
 from pathlib import Path
